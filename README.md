@@ -1,0 +1,1 @@
+# Algeria_Forest_Fire_Predictor
