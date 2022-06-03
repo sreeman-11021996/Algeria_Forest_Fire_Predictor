@@ -1,11 +1,11 @@
 flask
 flask-core
-numpy
-pandas
-scikit-learn
-scipy
-matplotlib
+Flask
 gunicorn
 Jinja2
 Werkzeug
-pickle
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
