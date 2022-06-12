@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+ <div class="login">
+	<h1>Algerian Forest Fires Prediction</h1>
+
+
+<form method="POST" enctype="multipart/form-data" id="fileUploadForm">
+        <div class="custom-file">
+           <input id="myfile" name="myfile" type="file" class="custom-file-input">
+
+           <label for="myfile" class="custom-file-label">
+             Choose file...
+           </label>
+        </div>
+      </form><br><br>
+
+      <button class="btn btn-primary" type="button" id="upload_document">Predict
+      </button>
+ <br>
+   <br>
+
+
+ </div>
+ {{prediction_text}}
+
+</body>
+</html>>
