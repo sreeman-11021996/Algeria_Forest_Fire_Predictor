@@ -21,4 +21,3 @@ matplotlib
 gunicorn
 Jinja2
 Werkzeug
-pickle
